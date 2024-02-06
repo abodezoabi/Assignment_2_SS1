@@ -7,12 +7,12 @@ int main()
     char option = 'a'; // Variable to store the user's menu choice
 
     // Display the menu options to the user
-    printf("\n");
-    printf("List of commands : \n");
-    printf("A- Enters new adjacency matrix \n");
-    printf("B- Checks if a valid path is between i and j \n");
-    printf("C- Shortest path between i and j if exists \n");
-    printf("D- Exit the program \n");
+    // printf("\n");
+    // printf("List of commands : \n");
+    // printf("A- Enters new adjacency matrix \n");
+    // printf("B- Checks if a valid path is between i and j \n");
+    // printf("C- Shortest path between i and j if exists \n");
+    // printf("D- Exit the program \n");
 
     option = getchar(); // Read the first user option from standard input
     while(option != 'D') // Keep running until the user chooses to exit
